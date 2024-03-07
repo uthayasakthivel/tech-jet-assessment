@@ -1,0 +1,36 @@
+.swiper-container{
+  position: relative;
+}
+
+.center-image{
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mySwiper{
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+}
+
+.swiper-button-next,swiper-button-prev{
+  position: absolute;
+}
+
+.swiper-button-next{
+  bottom: 0;
+}
+/* Style the active slide */
+/* .swiper-slide.swiper-slide-active {
+  background-color: red;
+}
+
+
+.swiper-slide.swiper-slide-active + .swiper-slide {
+  background-color: yellow;  
+}
+
+.swiper-slide.swiper-slide-active ~ .swiper-slide ~ .swiper-slide {
+  background-color: green;
+} */

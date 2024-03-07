@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import Choose_Template from "./Sections/Choose_Template.js"
+import Integration from "./Sections/Integration/index.js"
+import Retail from "./Sections/Retail/index.js"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-[1920px] m-auto">
+      <Integration />
+      <Retail />
+      {/* can't complete this task */}
+      <Choose_Template />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
